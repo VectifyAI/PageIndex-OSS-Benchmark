@@ -1,0 +1,98 @@
+[
+  {
+    "chat_model": "gpt-5.6-luna",
+    "reasoning_effort": "none",
+    "correct": 53,
+    "total": 62,
+    "accuracy": 0.8548,
+    "avg_cost_usd": 0.003081
+  },
+  {
+    "chat_model": "gpt-5.6-luna",
+    "reasoning_effort": "low",
+    "correct": 53,
+    "total": 62,
+    "accuracy": 0.8548,
+    "avg_cost_usd": 0.003331
+  },
+  {
+    "chat_model": "gpt-5.6-luna",
+    "reasoning_effort": "medium",
+    "correct": 57,
+    "total": 62,
+    "accuracy": 0.9194,
+    "avg_cost_usd": 0.003806
+  },
+  {
+    "chat_model": "gpt-5.6-luna",
+    "reasoning_effort": "high",
+    "correct": 60,
+    "total": 62,
+    "accuracy": 0.9677,
+    "avg_cost_usd": 0.003607
+  },
+  {
+    "chat_model": "gpt-5.6-terra",
+    "reasoning_effort": "none",
+    "correct": 56,
+    "total": 62,
+    "accuracy": 0.9032,
+    "avg_cost_usd": 0.029581
+  },
+  {
+    "chat_model": "gpt-5.6-terra",
+    "reasoning_effort": "low",
+    "correct": 59,
+    "total": 62,
+    "accuracy": 0.9516,
+    "avg_cost_usd": 0.03238
+  },
+  {
+    "chat_model": "gpt-5.6-terra",
+    "reasoning_effort": "medium",
+    "correct": 61,
+    "total": 62,
+    "accuracy": 0.9839,
+    "avg_cost_usd": 0.030322
+  },
+  {
+    "chat_model": "gpt-5.6-terra",
+    "reasoning_effort": "high",
+    "correct": 62,
+    "total": 62,
+    "accuracy": 1.0,
+    "avg_cost_usd": 0.032494
+  },
+  {
+    "chat_model": "gpt-5.6-sol",
+    "reasoning_effort": "none",
+    "correct": 60,
+    "total": 62,
+    "accuracy": 0.9677,
+    "avg_cost_usd": 0.075875
+  },
+  {
+    "chat_model": "gpt-5.6-sol",
+    "reasoning_effort": "low",
+    "correct": 60,
+    "total": 62,
+    "accuracy": 0.9677,
+    "avg_cost_usd": 0.0817
+  },
+  {
+    "chat_model": "gpt-5.6-sol",
+    "reasoning_effort": "medium",
+    "correct": 62,
+    "total": 62,
+    "accuracy": 1.0,
+    "avg_cost_usd": 0.081008
+  },
+  {
+    "chat_model": "gpt-5.6-sol",
+    "reasoning_effort": "high",
+    "correct": 62,
+    "total": 62,
+    "accuracy": 1.0,
+    "avg_cost_usd": 0.081906
+  }
+]
