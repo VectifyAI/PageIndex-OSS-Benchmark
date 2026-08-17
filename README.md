@@ -3,7 +3,7 @@
 A retrieval benchmark for **open-source PageIndex running locally** —
 `PageIndexClient()` with no API key, flash indexing, no OCR.
 
-62 questions over 34 PDFs, drawn from
+We collect 62 questions over 34 PDFs, drawn from
 [MMLongBench-Doc-V2](https://github.com/VectifyAI/MMLongBench-Doc-V2) and kept
 to cases where the answer is a fact stated in running text: no charts, no tables, no figures, and no counting or arithmetic
 on top of what was retrieved. The point is to isolate **retrieval and reading**
@@ -33,7 +33,7 @@ OSS's reach, and says nothing about the documents outside it.
 pip install 'pageindex>=0.2.10.dev4'
 export OPENAI_API_KEY=...
 
-python run_variant.py gpt-5.6-luna high      # model, reasoning effort
+python run_variant.py gpt-5.6-luna high      # chat model, reasoning effort
 ```
 
 The two arguments set the **chat** model only. Tree construction is separate:
@@ -43,7 +43,7 @@ default, **gpt-5.6-luna**, for every tree shipped here. Override it if you want
 a different indexer:
 
 ```python
-PageIndexClient(index_model="gpt-5.6-sol", chat_model="gpt-5.6-luna")
+PageIndexClient(index_model="gpt-5.6-luna", chat_model="gpt-5.6-luna")
 ```
 
 First run indexes all 34 PDFs serially and caches the doc ids in
